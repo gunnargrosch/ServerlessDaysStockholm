@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
     <title>{{ page.title }}</title>
     <meta charset="utf-8">
     <meta property="og:title" content="{{ page.title }}">
@@ -19,23 +20,35 @@
     <link rel="icon" href="img/favicon.ico" type="image/x-icon"/>
     <link rel="stylesheet" href="css/tachyons.css">
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-136817767-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-136817767-1');
+    </script>
+
+    </head>
     <body class="sls-gray">
+        {% include 'header.njk' %}
+
+        {% include 'heroContainer.njk' %}
+
+        {%- for post in collections.post -%}
+        <a name="{{ post.data.title }}"></a>
+        <div class="section">
+            <div class="left">
+                <div class="title"><h1>{{ post.data.title | safe }}</h1></div>
+            </div>
+            <div class="text">
+                {{ post.templateContent | safe}}
+            </div>
+        </div>
+        {%- endfor -%}
+
+        {% include 'footer.njk' %}
     </body>
-    {% include 'header.njk' %}
-
-    {% include 'heroContainer.njk' %}
-
-    {%- for post in collections.post -%}
-    <a name="{{ post.data.title }}"></a>
-    <div class="section">
-        <div class="left">
-            <div class="title"><h1>{{ post.data.title | safe }}</h1></div>
-        </div>
-        <div class="text">
-            {{ post.templateContent | safe}}
-        </div>
-    </div>
-    {%- endfor -%}
-
-    {% include 'footer.njk' %}
 </html>
