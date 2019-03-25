@@ -1,0 +1,5 @@
+# Ignore list for project
+
+_site
+.vscode
+node_modules

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title>{{ page.title }}</title>
+    <meta charset="utf-8">
+    <meta property="og:title" content="{{ page.title }}">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="{{ page.description }}">
+    <meta property="og:url" content="{{ page.url }}">
+    <meta property="og:image" content="{{ page.image }}">
+    <meta name="description" content="{{ page.description }}">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="{{ page.title }}">
+    <meta name="twitter:site" content="{{ page.twitter }}">
+    <meta name="twitter:description" content="{{ page.description }}">
+    <meta name="twitter:url" content="{{ page.url }}">
+    <meta name="twitter:image" content="{{ page.image }}">
+    <meta name="twitter:creator" content="{{ page.twitterhandle }}">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="css/tachyons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <body class="sls-gray">
+    </body>
+    {% include 'header.njk' %}
+
+    {% include 'heroContainer.njk' %}
+
+    {%- for post in collections.post -%}
+    <a name="{{ post.data.title }}"></a>
+    <div class="section">
+        <div class="left">
+            <div class="title"><h1>{{ post.data.title | safe }}</h1></div>
+        </div>
+        <div class="text">
+            {{ post.templateContent | safe}}
+        </div>
+    </div>
+    {%- endfor -%}
+
+    {% include 'footer.njk' %}
+</html>
