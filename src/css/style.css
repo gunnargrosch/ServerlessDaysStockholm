@@ -696,9 +696,6 @@ nav.top-nav .menu a.highlight:active {
     white-space: nowrap;
   }
 
-  .heroContainer {
-    padding: 0;
-  }
 
   .heroContainer .heroTitle {
     display: none;
