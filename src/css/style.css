@@ -690,7 +690,7 @@ nav.top-nav .menu a.highlight:active {
 }
 
 /* mobile */
-@media (max-width: 1920px) {
+@media (max-width: 920px) {
   .no-mobile {
     display: none !important;
     white-space: nowrap;
