@@ -1,15 +1,20 @@
 {
   "name": "serverlessdays-stockholm",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "ServerlessDays Stockholm Website",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com:mHallne/ServerlessDaysStockholm.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@11ty/eleventy": "^0.7.1"
-  }
+  "keywords": [
+    "serverless",
+    "serverlessdays",
+    "Stockholm"
+  ],
+  "author": "Mikael Hallne",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mHallne/ServerlessDaysStockholm/issues"
+  },
+  "homepage": "https://github.com/mHallne/ServerlessDaysStockholm#readme"
 }
