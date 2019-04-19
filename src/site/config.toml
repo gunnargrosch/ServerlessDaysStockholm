@@ -13,6 +13,7 @@ title = "ServerlessDays Stockholm"
     backgroundImage = "/images/Sthlm_2.JPG"
     prospectus = ""
     ticketDate = "June 7, 2019"
+    emailForm = "https://forms.gle/ExTEhCahRuJYKv1d6"
 
 [[params.dates]]
     date = "May 26, 2019"
