@@ -63,8 +63,8 @@ dist/
 
 src/Art
 .idea/
+src/site/public
 
 
-_site
 .vscode
 node_modules

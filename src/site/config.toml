@@ -6,32 +6,35 @@ title = "ServerlessDays Stockholm"
     logo = "/images/Logo1.png"
     description = "A community based conference focusing on Serverless based platforms and technologies. Stockholm, October 24, 2019"
     mascot = "/images/Anteater_mascot.png"
-    date = "October 24, 2019"
+    date = "24 October 2019"
     city = "Stockholm"
     twitter = "ServerlessSthlm"
     email = "stockholm@serverlessdays.io"
     backgroundImage = "/images/Sthlm_2.JPG"
-    prospectus = ""
-    ticketDate = "June 7, 2019"
+    prospectus = "/assets/Prospectus_ServerlessDays_Stockholm_2019.pdf"
+    ticketDate = "7 June 2019"
+    ticketSaleUrl = "https://serverlessdays-stockholm-2019.eventbrite.com"
+    cfpDate = "26 May 2019"
+    cfpUrl = "https://www.papercall.io/serverlessdaysstockholm2019"
     emailForm = "https://forms.gle/ExTEhCahRuJYKv1d6"
 
 [[params.dates]]
-    date = "May 26, 2019"
+    date = "26 May 2019"
     text = "CFP Opens"
     done = false
 
 [[params.dates]]
-    date = "June 7, 2019"
+    date = "7 June 2019"
     text = "Tickets go on sale"
     done = false
 
 [[params.dates]]
-    date = "September 24, 2019"
+    date = "1 September 2019"
     text = "CFP closes"
     done = false
 
 [[params.dates]]
-    date = "October 1, 2019"
+    date = "7 September 2019"
     text = "Schedule announced"
     done = false    
 
