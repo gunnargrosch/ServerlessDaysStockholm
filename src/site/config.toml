@@ -27,7 +27,7 @@ title = "ServerlessDays Stockholm"
 [[params.dates]]
     date = "7 June 2019"
     text = "Tickets go on sale"
-    done = false
+    done = true
 
 [[params.dates]]
     date = "1 September 2019"
