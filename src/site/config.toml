@@ -39,6 +39,16 @@ title = "ServerlessDays Stockholm"
     text = "Schedule announced"
     done = false    
 
+[[params.dates]]
+    date = "24 october 2019"
+    text = "ServerlessDays Stockholm @ Openlab"
+    done = false
+
+[[params.dates]]
+    date = "25 october 2019"
+    text = "Workshops"
+    done = false
+
 [params.venue]
     name = "Openlab"
     link = "http://openlabsthlm.se"
