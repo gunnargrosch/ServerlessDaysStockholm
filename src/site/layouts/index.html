@@ -85,7 +85,25 @@
         {{end}}
     </div>
   </div>
-  
+
+  <a name="workshops"></a>
+  <div class="section workshops" style="border-top: 0">
+    <h1>Workshops</h1>
+    <div class="list">
+        {{ range where .Site.RegularPages "Section" "workshops" }} 
+        <div>
+          <div class="text">
+          <h2>{{.Params.title}}</h2>
+          <p>What: {{.Params.short}}</p>
+          <p>When: {{.Params.when}}</p>
+          <p>Where: {{.Params.venue}}</p>
+          <p><a href="{{.URL}}">Click here for more details and to reserve a seat</a></p>
+        </div>
+      </div>
+      {{end}}
+    </div>    
+  </div>
+
   <a name="cfp"></a>
   <div class="section" style="border-top: 0;">
     <div class="left">

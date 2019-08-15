@@ -430,6 +430,29 @@ nav.top-nav .menu a.highlight:active {
   color: #7894d9;
 }
 
+.section.workshops {
+  display: block;
+}
+
+.section.workshops .list {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex: 1 1 auto;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.section.workshops .list > div {
+  flex: 1 0 33%;
+  align-items: center;
+  padding: 30px;
+  flex-direction: column;
+  align-items: center;
+}
+
+
 .section.speakers {
   flex-direction: column;
 }
@@ -691,6 +714,65 @@ nav.top-nav .menu a.highlight:active {
   line-height: 1.32;
   margin-bottom: 2em;
 }
+
+
+
+.section.workshop {
+  max-width: 80%;
+  margin: auto;
+  border: 0;
+}
+.section.workshop > .text {
+  flex: 1 1 60%;
+}
+.section.workshop > .text > h1 {
+  margin-bottom: 5px;
+}
+.section.workshop > .text > h2 {
+  font-weight: 300;
+  color: #979797;
+  font-size: 1.8em;
+}
+.section.workshop > .text > p {
+  font-weight: 300;
+  color: #464541;
+  line-height: 1.32;
+}
+.section.workshop > .text > .bio {
+  display:block;
+  margin-top: 4em;
+}
+.section.workshop > .text > .bio > p {
+  font-weight: 300;
+  color: #464541;
+  line-height: 1.32;
+  margin-bottom: 2em;
+}
+.section.workshop > .text > .bio > h2 {
+  font-weight: 300;
+  color: #979797;
+  font-size: 1.6em;
+}
+.section.workshop > .text > .bio  img {
+  width: 100px;
+  border-radius: 50%;
+  border: 2px solid lightgray;
+  margin-top: 1em;
+  margin-right: 2em;
+  margin-bottom: 2em;
+  float: left;
+}
+.section.workshop > .text > .details {
+  display:block;
+  margin-top: 6em;
+}
+.section.workshop > .text > .details > p {
+  font-weight: 300;
+  color: #464541;
+  line-height: 1.32;
+}
+
+
 
 /* mobile */
 @media (max-width: 920px) {

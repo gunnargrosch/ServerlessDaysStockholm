@@ -1,0 +1,42 @@
+{{ define "head" }}
+<title>Workshop: {{.Title}} - {{.Site.Title}}</title>
+<meta property="og:title" content="{{.Title}} - {{.Site.Title}}">
+<meta property="og:image" content="{{.Params.image | absURL}}">
+<meta name="description" content="{{.Description}}">
+{{ end }}
+
+{{ define "main" }}
+<div class="breadcrumb">&nbsp;</div>
+
+<div class="section workshop">
+  <div class="text">
+    <h1>{{.Title}}</h1>
+    <p>{{.Description}}</p>
+    <p>Take-aways<br /> {{.Params.takeaways}}</p>
+    <p>Requirements<br /> {{.Params.requirements}}</p>
+
+    <div class="bio">
+      <h2>{{.Params.author}}</h2>
+      <img src="{{.Params.image}}">
+      <p>
+        {{with .Params.twitter}}
+        <a href="https://twitter.com/{{.}}" target="_blank">@{{.}}</a><br />
+        {{end}}
+        {{.Params.bio}}
+      </p>
+    </div>
+
+    <div class="details">
+      <p>When: {{.Params.when}}, {{.Params.duration}}</p>
+      <p>Where: {{.Params.venue}}</p>
+      <p>Price: {{.Params.price}}</p>
+      <div class="image" style="padding-bottom: 20px"><iframe src="{{.Params.map}}" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+
+      <p><a class="button" href="{{.Params.tickets}}" target="_blank">Click here to buy a ticket and reserve a seat</a></p>
+    </div>
+
+    <p><a class="button" href="/">Back</a></p>
+  </div>
+</div>
+
+{{ end }}
