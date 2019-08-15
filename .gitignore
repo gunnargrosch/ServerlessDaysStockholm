@@ -68,3 +68,4 @@ src/Art
 
 .vscode
 node_modules
+src/site/public/
