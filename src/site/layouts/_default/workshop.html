@@ -13,7 +13,7 @@
     <h1>{{.Title}}</h1>
     <p>{{.Description}}</p>
     <p>Take-aways<br /> {{.Params.takeaways}}</p>
-    <p>Requirements<br /> {{.Params.requirements}}</p>
+    <p>Requirements<br /> {{.Params.requirements | safeHTML }}</p>
 
     <div class="bio">
       <h2>{{.Params.author}}</h2>

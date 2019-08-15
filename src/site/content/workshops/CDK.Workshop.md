@@ -5,9 +5,9 @@ title: CDK Workshop
 short: "CDK is a tool that allows you to build and deploy resources in the cloud with programming languages you are already familiar with. During this workshop, we’ll build an application in AWS with the CDK."
 description: "In July, AWS announced the General Availability of the Cloud Developer Kit. This tool allows developers to use programming languages that they’re already familiar with to author CloudFormation templates. During this workshop, students will build a serverless application with the AWS CDK and deploy it to their AWS Account. The workshop covers CDK basics (Constructs, Stacks, Apps), how resources are defined and managed within CDK, and how to build custom serverless apps with the CDK."
 takeaways: Students will leave with a serverless application that is created with the CDK and they’ll have the skills needed to extend/customize the app on their own.
-requirements: "Participants will need an AWS Account (all activities will be well within the free-tier) to participate (Students can follow along without actually creating the AWS Resources if they don’t have/want an AWS account). 
-- Students should be familiar with one “Typed” Language (Java, TypeScript, .Net, Python 3+, etc …) 
-- Students are not expected to have any specific knowledge about AWS Services before the workshop, we will spend approximately 30 minutes covering the basics to make the course as accessible as possible.
+requirements: "- Participants will need an AWS Account (all activities will be well within the free-tier) to participate (Students can follow along without actually creating the AWS Resources if they don’t have/want an AWS account). <br />
+- Students should be familiar with one “Typed” Language (Java, TypeScript, .Net, Python 3+, etc …) <br />
+- Students are not expected to have any specific knowledge about AWS Services before the workshop, we will spend approximately 30 minutes covering the basics to make the course as accessible as possible.<br />
 - Please bring your own laptop. You can use your laptop to store what you have seen and learned directly in the course and use it immediately for your daily work in the company."
 author: Richard Boyd
 bio: "Richard is a Cloud Solutions Architect at the iRobot Corporation. Richard focuses on building serverless applications that need to interact with on-premise and legacy applications and designing CI/CD workflows for serverless architectures."
