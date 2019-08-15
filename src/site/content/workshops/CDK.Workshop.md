@@ -1,8 +1,8 @@
 ---
 type: "page"
 layout: "workshop"
-title: CDK Workshop
-short: "CDK is a tool that allows you to build and deploy resources in the cloud with programming languages you are already familiar with. During this workshop, we’ll build an application in AWS with the CDK."
+title: AWS Cloud Development Kit Workshop
+short: "AWS CDK is a tool that allows you to build and deploy resources in the cloud with programming languages you are already familiar with. During this workshop, we’ll build an application in AWS with the CDK."
 description: "In July, AWS announced the General Availability of the Cloud Developer Kit. This tool allows developers to use programming languages that they’re already familiar with to author CloudFormation templates. During this workshop, students will build a serverless application with the AWS CDK and deploy it to their AWS Account. The workshop covers CDK basics (Constructs, Stacks, Apps), how resources are defined and managed within CDK, and how to build custom serverless apps with the CDK."
 takeaways: Students will leave with a serverless application that is created with the CDK and they’ll have the skills needed to extend/customize the app on their own.
 requirements: "- Participants will need an AWS Account (all activities will be well within the free-tier) to participate (Students can follow along without actually creating the AWS Resources if they don’t have/want an AWS account). <br />
