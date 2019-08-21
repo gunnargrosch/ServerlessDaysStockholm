@@ -20,6 +20,6 @@ when: "25 October 2019"
 duration: 08.30-12.30
 venue: Cybercom, Sveavägen 20, Stockholm
 map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d32555.46093621571!2d18.059730888566826!3d59.33769006069104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f9d8653313e89%3A0x4b6106d71b8e922a!2sCybercom+Group+AB!5e0!3m2!1sen!2sse!4v1566374314125!5m2!1sen!2sse"
-tickets: "asdasdasd"
+tickets: "https://www.eventbrite.se/e/building-a-100-serverless-application-with-the-right-observability-tickets-69980568765"
 ---
 
