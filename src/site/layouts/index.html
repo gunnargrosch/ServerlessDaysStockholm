@@ -92,7 +92,7 @@
     <div class="list">
         {{ range where .Site.RegularPages "Section" "workshops" }} 
         <div>
-          <div class="text">
+          <div class="text" style="border: 1px solid #b0b0b0; border-radius: 5px; padding: 15px;">
           <h2>{{.Params.title}}</h2>
           <p>What: {{.Params.short}}</p>
           <p>When: {{.Params.when}}</p>

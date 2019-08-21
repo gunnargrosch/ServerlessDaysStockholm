@@ -11,13 +11,15 @@
 <div class="section workshop">
   <div class="text">
     <h1>{{.Title}}</h1>
-    <p>{{.Description}}</p>
-    <p>Take-aways<br /> {{.Params.takeaways}}</p>
+    <p>{{.Description | safeHTML }}</p>
+    <p>Take-aways<br /> {{.Params.takeaways | safeHTML }}</p>
     <p>Requirements<br /> {{.Params.requirements | safeHTML }}</p>
 
     <div class="bio">
       <h2>{{.Params.author}}</h2>
-      <img src="{{.Params.image}}">
+      {{with .Params.image}}
+      <img src="{{.}}">
+      {{end}}      
       <p>
         {{with .Params.twitter}}
         <a href="https://twitter.com/{{.}}" target="_blank">@{{.}}</a><br />
