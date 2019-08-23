@@ -13,7 +13,7 @@ requirements: "- AWS Account<br />
 - Please bring your laptop for the hands-on workshop"
 author: Thundra
 bio: 
-image: 
+image: /images/Thundra-main-blue-trans.png
 twitter: 
 price: You must have a ServerlessDays ticket to book this workshop. You will be emailed a link to book the workshop after purchasing a ticket.
 when: "25 October 2019"
