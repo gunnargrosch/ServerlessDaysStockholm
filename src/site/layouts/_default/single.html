@@ -17,8 +17,8 @@
     {{with .Params.twitter}}
     <div><a href="https://twitter.com/{{.}}" target="_blank">@{{.}}</a></div>
     {{end}}
-    <p>{{.Params.organization}}</p>
-    <p>{{.Params.bio}}</p>
+    <p>{{.Params.organization | safeHTML }}</p>
+    <p>{{.Params.bio | safeHTML }}</p>
 
     <h2>Talk: {{.Title}}</h2>
     <p>{{.Description}}</p>
