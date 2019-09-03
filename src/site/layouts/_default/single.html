@@ -21,7 +21,7 @@
     <p>{{.Params.bio | safeHTML }}</p>
 
     <h2>Talk: {{.Title}}</h2>
-    <p>{{.Description}}</p>
+    <p>{{.Description | safeHTML }}</p>
 
     <a class="button" href="/#speakers">Back to the speakers</a>
   </div>
