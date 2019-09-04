@@ -54,6 +54,38 @@
     </div>
   </div>
 
+
+  <a name="agenda"></a>
+  <div class="section agenda" style="border: 0">
+    <div class="header-button"><h1>Agenda</h1></div>
+
+    <h2>{{.Site.Params.date}}</h2>
+
+    <div class="row">
+        {{ $site := .Site }}
+        {{ range .Site.Params.agenda }} 
+        {{ $item := . }}
+        {{ with .talk }}
+        
+          {{ with $site.GetPage . }}
+          <div class="{{$item.type}}" onclick="location='{{.URL}}';">
+            <span>{{$item.time}}</span> 
+            <strong>{{.Title}}</strong> 
+            <span>{{.Params.speaker}}{{with .Params.secondSpeaker}} &amp; {{.}}{{end}}</span>
+          </div>  
+          {{ end }} 
+
+        {{ else }}
+        <div class="{{.type}}">
+          <span>{{.time}}</span>
+          <strong>{{.title}}</strong>
+          <span>{{.description}}</span>
+        </div>
+        {{end}}
+        {{end}}  
+    </div>
+  </div>
+
   <a name="agenda"></a>
   <div class="section" style="border-top: 0;">
     <div class="left">
@@ -102,20 +134,6 @@
       </div>
       {{end}}
     </div>    
-  </div>
-
-  <a name="cfp"></a>
-  <div class="section" style="border-top: 0;">
-    <div class="left">
-      <div class="title"><h1>Call for Papers</h1></div>
-      <div class="image"><img width="150" height="150" style="padding: 30px;" src="/images/dino_mascot.svg"></div>
-    </div>
-    <div class="text">
-      <p>Our CFP is now open on <a href="{{.Site.Params.cfpUrl}}" target="_blank">Papercall</a> and will remain open until the {{.Site.Params.cfpEndDate}}.</p>
-      <p>Communities grow through sharing. Take the opportunity to share your experiences working with Serverless platforms and technologies. We are looking for all levels of talks, from beginner to advanced, and all levels of speakers. </p>
-      <p>Have you never submitted a response to a conference CFP before? We have mentors who are happy to review your submissions and give you advice! Nervous about speaking and want someone to coach you? We have experienced speakers who are happy to assist you. Email us to tell us what you are looking for and we will introduce you to one of our great mentors.</p>      
-      <p>We are committed to a fair CFP process, and will work hard to minimize selection bias.</p>
-    </div>
   </div>
   
   <a name="tickets"></a>
