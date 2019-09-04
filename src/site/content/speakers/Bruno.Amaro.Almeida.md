@@ -1,0 +1,15 @@
+---
+title: What can Serverless AI/ML APIs tell us about fake and credible news media websites?
+description: "<p>News media websites are - and have been in the past years - in the epicenter of multiple society debates (e.g. fake news, elections and geo-political influence, etc.) with a tremendous impact in our society. What happens when you enrich metadata collected from news media with the AI/ML API’s (e.g. Image Classification, Translation, Sentiment Analysis) that public cloud (AWS, Google Cloud and Azure) provides?<br />
+In this talk, we will see what kind of insights we gain when leveraging these ready-made AI/ML capabilities.</p>
+<p>Today, a wide range of people and organizations worldwide (e.g. universities, companies, governments, etc.) actively use the public cloud. While there are dozens of public cloud vendors, three companies are currently the undisputed global market leaders: Amazon Web Services, Google Cloud and Microsoft Azure.</p>
+<p>AI and Machine Learning are key areas of investment, growth and differentiation for many organizations and that is no exception for the three major public cloud vendors (AWS, GCP and Azure). In this context, pre-trained AI/ML API’s in combination with other Serverless services is one area that has been on the rise and with fast adoption. While all of these vendors provide very interesting functionalities in their AI/ML API’s offering, Google Cloud has been standing out among them.</p>
+<p>Using simple software engineering techniques is fairly easy to periodically collect and extract metadata information from different news media websites (fake news or credible sources), and therefore allow us to gather interesting insights and draw some conclusions.</p>
+<p>However, with AI/ML API’s at our disposal we could take this one step further. By leveraging those ready-made capabilities (e.g. Image Classification, Translation, Sentiment Analysis), we could enrich our metadata and gain valuable information and insights from the powerful pre-trained AI/MLs that we have in Azure, Google Cloud and AWS. All of this in a matter of milliseconds and without any kind the engineering or data science heavy lifting from our side.</p>
+<p>What can public cloud (AWS, Azure and Google Cloud) AI/ML APIs tell us about news media websites?</p>"
+speaker: Bruno Amaro Almeida
+organization: Futurice 
+bio: "Bruno is a Principal Architect & Technology Advisor at Futurice - an international software engineering and innovation consultancy. He is based in Helsinki and works in areas such as Cloud, Security, DevOps, AI & Data Engineering. Throughout his career he has worked in a wide range of positions from senior management to deep technical roles. Bruno is passionate about culture and digital transformation and has been involved in several projects from both the human (Leadership, Coaching, Mentoring) and technical (Cloud, DevOps, AI) perspective."
+image: /images/Bruno.Amaro.Almeida.jpg
+twitter: bruno_amaro
+---
