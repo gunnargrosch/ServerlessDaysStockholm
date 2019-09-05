@@ -107,9 +107,9 @@
           <div class="bio">
               <a href="{{.URL}}">
                   <img src="{{.Params.image}}">
-                </a>
             <h3>{{.Params.speaker}}</h3>
-            {{ with .Params.twitter }}
+          </a>
+          {{ with .Params.twitter }}
             <a href="https://twitter.com/{{.}}" target="_blank">@{{.}}</a>
             {{ end }}
           </div>
