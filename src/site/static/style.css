@@ -96,7 +96,7 @@ nav.top-nav .menu {
 nav.top-nav .menu a {
   display: flex;
   flex: 0 1;
-  padding: 10px;
+  padding: 5px;
   text-decoration: none;
   color: #13110c;
   border: solid 2px white;
@@ -431,14 +431,12 @@ nav.top-nav .menu a.highlight:active {
 }
 
 .section.workshops {
-  display: block;
+  flex-direction: column;
 }
 
 .section.workshops .list {
-  width: 80%;
   margin: auto;
-  display: flex;
-  flex-direction: row;
+  /*flex-direction: column;*/
   flex: 1 1 auto;
   flex-wrap: wrap;
   justify-content: flex-start;
