@@ -905,13 +905,6 @@ nav.top-nav .menu a.highlight:active {
     color: #464541;
     line-height: 1.32;
   }
-  .section.sponsor > .photo {
-    margin-top: 1em;
-    margin-right: 12em;
-    margin-bottom: 2em;
-    float: left;
-    display: block;
-  }
   
 
   .section.talk {
