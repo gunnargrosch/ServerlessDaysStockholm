@@ -122,9 +122,9 @@
   <div class="section workshops" style="border-top: 0">
     <h1>Workshops</h1>
     <div class="list">
-        {{ range where .Site.RegularPages "Section" "workshops" }} 
-        <div>
-          <div class="text" style="border: 1px solid #b0b0b0; border-radius: 5px; padding: 15px;">
+      {{ range where .Site.RegularPages "Section" "workshops" }} 
+      <div>
+        <div class="text" style="border: 1px solid #b0b0b0; border-radius: 5px; padding: 15px;">
           <h2>{{.Params.title}}</h2>
           <p>What: {{.Params.short}}</p>
           <p>When: {{.Params.when}}</p>
@@ -149,14 +149,43 @@
   </div>
 
   <a name="sponsors"></a>
-  <div class="section" style="border-top: 0;">
-    <div class="left">
-      <div class="title"><h1>Sponsors</h1></div>
-      <div class="image"><img width="150" height="150" style="padding: 30px;" src="/images/unicorn_mascot.svg"></div>
+    <div class="section sponsors" style="border-top: 0;">
+      <h1>Sponsors</h1>
+      <!-- <h2>n+2 Sponsors</h2>
+
+      <div class="list gold">
+        {{ range .Site.Params.sponsors.gold }}
+        <div><a href="{{ .link }}" target="_blank"><img width="{{.width}}px" class="grow" src="{{ .logo }}"
+              title="{{ .name }}" alt="{{ .name }}"></a></div>
+        {{ end }}
+      </div>
+
+    <div class="separator">&nbsp;</div>
+
+    <h2>n+1 Sponsors</h2>
+    <div class="list silver">
+      {{ range .Site.Params.sponsors.silver }}
+      <div><a href="{{ .link }}" target="_blank"><img width="{{.width}}px" class="grow" src="{{ .logo }}"
+            title="{{ .name }}" alt="{{ .name }}"></a></div>
+      {{ end }}
     </div>
-    <div class="text" style="width: 100%;">
-      <p>For more information on becoming a sponsor, please download our <a href="{{.Site.Params.prospectus}}">prospectus</a> or send an email to <a href="{{.Site.Params.email}}">{{.Site.Params.email}}</a>.</p>
-   </div>
+
+    <div class="separator">&nbsp;</div>  -->
+
+    <h2>n Sponsors</h2>
+    <div class="list bronze">
+      {{ range where .Site.RegularPages "Section" "sponsors" }} 
+      <div class="list">
+        <div>
+          <a href="{{.URL}}">
+            <img width="{{.Params.width}}px" class="grow" src="{{.Params.logo}}"
+            title="{{.Params.name}}" alt="{{.Params.name}}"></a>
+          </div>        </div>
+      {{ end }}
+    </div>
+
+    <p>&nbsp;</p>
+    <p>For more information on becoming a sponsor, please download our <a href="{{.Site.Params.prospectus}}">prospectus</a> or send an email to <a href="{{.Site.Params.email}}">{{.Site.Params.email}}</a>.</p>
   </div>
 
   <a name="coc"></a>

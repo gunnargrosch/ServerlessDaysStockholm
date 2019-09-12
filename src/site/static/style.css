@@ -512,7 +512,7 @@ nav.top-nav .menu a.highlight:active {
   justify-content: center;
 }
 
-.sponsors {
+.section.sponsors {
   flex-direction: column;
 }
 
@@ -520,23 +520,33 @@ nav.top-nav .menu a.highlight:active {
   font-size: 3em;
 }
 
-.sponsors h2 {
+.section.sponsors h2 {
   font-size: 2em;
   margin-bottom: 1em;
 }
 
-.sponsors .list {
-  flex: 1 0 auto;
-  justify-content: space-around;
-  align-self: center;
+.section.sponsors .list {
+  margin: auto;
+  /*flex-direction: column;*/
+  flex: 1 1 auto;
+  flex-wrap: wrap;
+  justify-content: flex-start;
 }
 
-.sponsors .list div {
+.section.workshops .list > div {
+  flex: 1 0 33%;
+  align-items: center;
+  padding: 30px;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* .sponsors .list div {
   flex: 1 0 auto;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-}
+} */
 
 .sponsors .list div.squared {
   flex: 0 1 content;
@@ -880,6 +890,29 @@ nav.top-nav .menu a.highlight:active {
   .sponsors .community img {
     max-width: 200px;
   }
+
+  .section.sponsor {
+    max-width: 80%;
+    margin: auto;
+    border: 0;
+    align-items: center;
+  }
+  .section.sponsor > text {
+      flex: 1 1 60%;
+    }
+  .section.sponsor > .text > p {
+    font-weight: 300;
+    color: #464541;
+    line-height: 1.32;
+  }
+  .section.sponsor > .photo {
+    margin-top: 1em;
+    margin-right: 12em;
+    margin-bottom: 2em;
+    float: left;
+    display: block;
+  }
+  
 
   .section.talk {
     flex-direction: column;
