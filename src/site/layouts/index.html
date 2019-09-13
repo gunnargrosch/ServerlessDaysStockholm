@@ -176,11 +176,12 @@
     <div class="list bronze">
       {{ range where .Site.RegularPages "Section" "sponsors" }} 
       <div class="list">
-        <div>
+        <div style="padding: 1.5em;">
           <a href="{{.URL}}">
             <img width="{{.Params.width}}px" class="grow" src="{{.Params.logo}}"
             title="{{.Params.name}}" alt="{{.Params.name}}"></a>
-          </div>        </div>
+          </div>
+        </div>
       {{ end }}
     </div>
 
