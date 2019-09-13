@@ -174,7 +174,7 @@
 
     <h2>Sponsors</h2>
     <div class="list bronze">
-      {{ range where .Site.RegularPages "Section" "sponsors" }} 
+      {{ range where .Site.RegularPages "Section" "sponsors"  | shuffle}} 
       <div class="list">
         <div style="padding: 1.5em;">
           <a href="{{.URL}}">
