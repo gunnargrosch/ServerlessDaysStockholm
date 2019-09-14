@@ -13,7 +13,7 @@ author: Richard Boyd
 bio: "Richard is a Cloud Solutions Architect at the iRobot Corporation. Richard focuses on building serverless applications that need to interact with on-premise and legacy applications and designing CI/CD workflows for serverless architectures."
 image: /images/Richard.Boyd.jpg
 twitter: rchrdbyd
-price: You must have a ServerlessDays ticket to book this workshop. You will be emailed a link to book the workshop after purchasing a ticket.
+price: After you buy your ticket for ServerlessDays Stockholm you can register for a workshop without any additional cost. Information will be sent to you in the confirmation email.
 when: "25 October 2019"
 duration: 08.30-12.30
 venue: AWS Sweden, Kungsgatan 49, Stockholm

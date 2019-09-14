@@ -15,7 +15,7 @@ author: Thundra
 bio: 
 image: /images/Thundra-main-blue-trans.png
 twitter: 
-price: You must have a ServerlessDays ticket to book this workshop. You will be emailed a link to book the workshop after purchasing a ticket.
+price: After you buy your ticket for ServerlessDays Stockholm you can register for a workshop without any additional cost. Information will be sent to you in the confirmation email.
 when: "25 October 2019"
 duration: 08.30-12.30
 venue: Cybercom, Sveavägen 20, Stockholm

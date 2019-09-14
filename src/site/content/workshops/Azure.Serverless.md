@@ -10,7 +10,7 @@ author: Microsoft
 bio: ""
 image: 
 twitter: 
-price: You must have a ServerlessDays ticket to book this workshop. You will be emailed a link to book the workshop after purchasing a ticket.
+price: AAfter you buy your ticket for ServerlessDays Stockholm you can register for a workshop without any additional cost. Information will be sent to you in the confirmation email.
 when: "25 October 2019"
 duration: 08.30-16.30
 venue: Enfo, Olof Palmes Gata 31, Stockholm
