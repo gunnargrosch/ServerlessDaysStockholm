@@ -55,3 +55,71 @@ title = "ServerlessDays Stockholm"
     map = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2034.2063296591784!2d18.070274216072924!3d59.34620358166473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f9d4034155555%3A0x67d41ef95a94b107!2sOpenlabs+Co-Working+Space!5e0!3m2!1ssv!2sse!4v1555256907911!5m2!1ssv!2sse"
     text = "Openlab’s Conference Center is centrally located in the KTH building right in front of the subway exit Tekniska Högskolan, Valhallavägen 79."
 
+[[params.agenda]]
+    time = "8:00 - 9:00"
+    type = "coffee"
+    title = "Registration & Breakfast"
+[[params.agenda]]
+    time = "9:00 - 9:15"
+    type = "coffee"
+    title = "Opening Remarks"
+[[params.agenda]]
+    time = "9:15 - 9:45"
+    type = "talk"
+    talk = "Richard.Boyd"
+[[params.agenda]]
+    time = "9:50 - 10:20"
+    type = "talk"
+    talk = ""
+[[params.agenda]]
+    time = "10:20 - 10:45"
+    type = "coffee"
+    title = "Coffee Break"
+[[params.agenda]]
+    time = "10:45 - 11:15"
+    type = "talk"
+    talk = ""
+[[params.agenda]]
+    time = "11:20 - 11:55"
+    type = "talk"
+    talk = ""
+[[params.agenda]]
+    time = "12:00 - 13:10"
+    type = "lunch"
+    talk = ""
+[[params.agenda]]
+    time = "13:10 - 13:40"
+    type = "talk"
+    talk = ""
+[[params.agenda]]
+    time = "13:45 - 14:15"
+    type = "talk"
+    talk = ""
+[[params.agenda]]
+    time = "14:15 - 14:45"
+    type = "coffee"
+    title = "Coffee Break"
+[[params.agenda]]
+    time = "14:45 - 15:15"
+    type = "talk"
+    talk = ""
+[[params.agenda]]
+    time = "15:20 - 15:50"
+    type = "talk"
+    talk = ""
+[[params.agenda]]
+    time = "15:55 - 16:25"
+    type = "talk"
+    talk = ""
+[[params.agenda]]
+    time = "16:30 - 17:00"
+    type = "talk"
+    talk = ""
+[[params.agenda]]
+    time = "17:00 - 17:15"
+    type = "coffee"
+    title = "Closing Remarks"
+[[params.agenda]]
+    time = "17:15 - 18:30"
+    type = "coffee"
+    title = "Happy Hour & Networking"
