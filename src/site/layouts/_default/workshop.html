@@ -2,7 +2,7 @@
 <title>Workshop: {{.Title}} - {{.Site.Title}}</title>
 <meta property="og:title" content="{{.Title}} - {{.Site.Title}}">
 <meta property="og:image" content="{{.Params.image | absURL}}">
-<meta name="description" content="{{.Description}}">
+<meta name="description" content="{{.Description | safeHTML }}">
 {{ end }}
 
 {{ define "main" }}

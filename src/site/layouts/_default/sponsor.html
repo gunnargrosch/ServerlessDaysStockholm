@@ -2,7 +2,7 @@
 <title>Sponsor - {{.Params.Name}}</title>
 <meta property="og:title" content="{{.Params.Name}}">
 <meta property="og:image" content="{{.Params.logo | absURL}}">
-<meta name="description" content="{{.Params.Description}}">
+<meta name="description" content="{{.Params.Description | safeHTML }}">
 {{ end }}
 
 {{ define "main" }}
