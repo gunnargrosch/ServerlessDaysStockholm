@@ -17,7 +17,7 @@ takeaways: Develop more efficiently with Functions
 requirements: "TBD"
 author: Microsoft
 bio: ""
-image: 
+image: /images/Microsoft-logo.png
 twitter: 
 price: After you buy your ticket for ServerlessDays Stockholm you can register for a workshop without any additional cost. Information will be sent to you in the confirmation email.
 when: "25 October 2019"
