@@ -2,20 +2,18 @@
 type: "page"
 layout: "workshop"
 title: Microsoft Serverless Azure Workshop
-short: "Build with end-to-end Azure serverless solutions. Enjoy freedom from infrastructure management no matter what type of application you’re building or technologies you’re using. Choose from a range of serverless execution environments, fully managed services, and a comprehensive set of developer tools and services to build your applications."
-description: "<p><b>Build with end-to-end Azure serverless solutions</b><br />
-Enjoy freedom from infrastructure management no matter what type of application you’re building or technologies you’re using. Choose from a range of serverless execution environments, fully managed services, and a comprehensive set of developer tools and services to build your applications.</p>
-<p>Read more <a href='https://azure.microsoft.com/en-us/solutions/serverless/' target='_blank'>https://azure.microsoft.com/en-us/solutions/serverless/</a></p>
-<p>Develop more efficiently with Functions, an event-driven serverless compute platform that can also solve complex orchestration problems. Build and debug locally without additional setup, deploy and operate at scale in the cloud, and integrate services using triggers and bindings<br />
-<ul><li><b>Choice of language</b> - Write functions using your choice of C#, Java, Javascript, Python, and other languages. </li>
-<li><b>Bring your own dependencies</b> - Functions supports NuGet and NPM, so you can use your favorite libraries.</li>
-<li><b>Integrated security</b> - Protect HTTP-triggered functions with OAuth providers such as Azure Active Directory, Facebook, Google, Twitter, and Microsoft Account.</li>
-<li><b>Simplified integration</b> - Easily leverage Azure services and software-as-a-service (SaaS) offerings.</li>
-<li>Flexible development</b> - Code your functions right in the portal or set up continuous integration and deploy your code through <a href='https://docs.microsoft.com/en-us/azure/app-service/scripts/cli-continuous-deployment-github' target='_blank'>GitHub</a>, <a href='https://docs.microsoft.com/en-us/azure/app-service/scripts/cli-continuous-deployment-vsts' target='_blank'>Azure DevOps Services</a>, and other <a href='https://docs.microsoft.com/en-us/azure/app-service/deploy-local-git' target='_blank'>supported development tools</a>.</li>
-<li><b>Open-source</b> - The Functions runtime is open-source and <a href='https://github.com/azure/azure-webjobs-sdk-script' target='_blank'>available on GitHub</a>.</li></ul></p>"
-takeaways: Develop more efficiently with Functions
+short: "In this workshop, you will work as a group to setup and configure a serverless architecture within Azure using a combination of Azure Functions, Logic Apps, Event Grid, Cosmos DB, and Azure Storage."
+description: "<p>In this workshop, you will work as a group to setup and configure a serverless architecture within Azure using a combination of Azure Functions, Logic Apps, Event Grid, Cosmos DB, and Azure Storage.</p>
+<p>At the end of this workshop, you will have learned how to:<br />
+<ul><li>Use a series of Azure Functions that independently scale and break down business logic to discrete components</li>
+<li>Use computer vision algorithms within an Azure Function to accurately detect license plates in car images at scale</li>
+<li>Provision and use Cosmos DB as a highly available NoSQL data store for processed data</li>
+<li>Create a Logic App that contains a workflow to export processed license plates and conditionally send alerts based on successful or unsuccessful operation</li>
+<li>Use App Insights to monitor the serverless topology, observing how well the solution scales when under load</li>
+<li>Implement a Continuous Deployment DevOps process to automatically publish changes to Function Apps.</li></ul></p>"
+takeaways: Introduction to serverless architecture in Azure
 requirements: "TBD"
-author: Microsoft
+author: The proctors will be Drazen Dodik and Katarina Svedman from Microsoft
 bio: ""
 image: /images/Microsoft-logo.png
 twitter: 
