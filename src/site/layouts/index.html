@@ -163,7 +163,7 @@
     <h2>Sponsors</h2>
     <div class="list bronze">
       {{ range where .Site.RegularPages "Section" "sponsors"  | shuffle}} 
-      <div class="list">
+      <div class="list" style="order:{{.Params.order}}">
         <div style="padding: 1.5em;">
           <a href="{{.URL}}">
             <img width="{{.Params.width}}px" class="grow" src="{{.Params.logo}}"
