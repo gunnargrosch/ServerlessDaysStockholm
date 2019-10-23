@@ -14,6 +14,5 @@ description: "Futurice is a new breed of innovation consultancy with digital at 
 <li>Gunnar Grosch</li>
 <li>Angela Timofte (Trustpilot): <a href='https://stockholm.serverlessdays.io/speakers/angela.timofte/'>https://stockholm.serverlessdays.io/speakers/angela.timofte/</a></li>
 </ul>"
-
 ---
 
