@@ -47,7 +47,7 @@ title = "ServerlessDays Stockholm"
 [[params.dates]]
     date = "25 october 2019"
     text = "Workshops"
-    done = false
+    done = true
 
 [params.venue]
     name = "Openlab"
