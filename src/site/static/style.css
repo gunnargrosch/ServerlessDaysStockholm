@@ -647,6 +647,14 @@ nav.top-nav .menu a.highlight:active {
   margin: 1.2em 0 0 0;
 }
 
+.section.mailinglist {
+  flex-direction: column;
+}
+
+.section.mailinglist .text form p label {
+  font-size: 1.1em;
+}
+
 .footer {
   background-color: #19b1a3;
   margin: 0;
@@ -722,8 +730,6 @@ nav.top-nav .menu a.highlight:active {
   line-height: 1.32;
   margin-bottom: 2em;
 }
-
-
 
 .section.workshop {
   max-width: 80%;

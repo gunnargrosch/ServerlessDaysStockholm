@@ -28,8 +28,26 @@
     </div>
   </div>
 
+  <a name="mailinglist"></a>
+  <div class="section mailinglist">
+    <div class="left">
+      <h1>Mailing list</h1>
+    </div>
+    <div class="text">
+      <!-- Begin Mailchimp Signup Form -->
+      <form action="https://serverlessdays.us20.list-manage.com/subscribe/post?u=f82ed60b4163fa41a28713cb0&amp;id=8c794a6201" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+        <p><label for="mce-EMAIL">Sign up to get information on ServerlessDays Stockholm 2020</label></p>
+        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+        <div style="position: absolute; left: -5000px; display: inline;" aria-hidden="true"><input type="text" name="b_f82ed60b4163fa41a28713cb0_8c794a6201" tabindex="-1" value=""></div>
+        <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+      </form>  
+      <!--End mc_embed_signup-->
+    </div>
+  </div>
+
   <a name="about"></a>
-  <div class="section">
+  <div class="section" style="border-top: 0;">
     <div class="left">
       <div class="title"><h1>About</h1></div>
       <div class="image"><img width="150" height="150" style="padding: 30px;" src="{{.Site.Params.mascot}}"></div>
@@ -137,30 +155,8 @@
   </div>
 
   <a name="sponsors"></a>
-    <div class="section sponsors" style="border-top: 0;">
-      <h1>Sponsors</h1>
-      <!-- <h2>n+2 Sponsors</h2>
-
-      <div class="list gold">
-        {{ range .Site.Params.sponsors.gold }}
-        <div><a href="{{ .link }}" target="_blank"><img width="{{.width}}px" class="grow" src="{{ .logo }}"
-              title="{{ .name }}" alt="{{ .name }}"></a></div>
-        {{ end }}
-      </div>
-
-    <div class="separator">&nbsp;</div>
-
-    <h2>n+1 Sponsors</h2>
-    <div class="list silver">
-      {{ range .Site.Params.sponsors.silver }}
-      <div><a href="{{ .link }}" target="_blank"><img width="{{.width}}px" class="grow" src="{{ .logo }}"
-            title="{{ .name }}" alt="{{ .name }}"></a></div>
-      {{ end }}
-    </div>
-
-    <div class="separator">&nbsp;</div>  -->
-
-    <h2>Sponsors</h2>
+  <div class="section sponsors" style="border-top: 0;">
+    <h1>Sponsors</h1>
     <div class="list bronze">
       {{ range where .Site.RegularPages "Section" "sponsors"  | shuffle}} 
       <div class="list" style="order:{{.Params.order}}">
