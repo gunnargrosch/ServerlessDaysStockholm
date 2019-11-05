@@ -18,7 +18,6 @@ title = "ServerlessDays Stockholm"
     cfpDate = "26 May 2019"
     cfpEndDate = "1 September 2019"
     cfpUrl = "https://www.papercall.io/serverlessdaysstockholm2019"
-    emailForm = "https://forms.gle/ExTEhCahRuJYKv1d6"
 
 [[params.dates]]
     date = "26 May 2019"
